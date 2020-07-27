@@ -1,10 +1,7 @@
-
-        
-
 {
   "posts": [
-    {
-      "id": 1,
+        {
+        "id": 1,
         "parent_id": 0,
         "question": "How good was the prediction?",
         "answers": {
@@ -17,7 +14,52 @@
         "options_multiselect": false,
         "options_optional": false,
         "parent_condition": null
-    }
+        },
+        {
+        "id": 2,
+        "parent_id": 0,
+        "question": "Assess the prediction",
+        "answers": {
+          "0": 1,
+          "1": 2,
+          "2": 3
+        },
+        "type": "int",
+        "options_singleselect": true,
+        "options_multiselect": false,
+        "options_optional": false,
+        "parent_condition": null
+        },
+        {
+        "id": 3,
+        "parent_id": 0,
+        "question": "Did you get allergic reaction?",
+        "answers": {
+          "0": true,
+          "1": false
+        },
+        "type": "bool",
+        "options_singleselect": true,
+        "options_multiselect": false,
+        "options_optional": false,
+        "parent_condition": null
+        },
+      {
+        "id": 4,
+        "parent_id": 3,
+        "question": "What pollen do you think could it be?",
+        "answers": {
+          "0": "Breza",
+          "1": "Pelin",
+          "2": "Trava"
+        },
+        "type": "String",
+        "options_singleselect": false,
+        "options_multiselect": true,
+        "options_optional": false,
+        "parent_condition": 0
+      }
+          
   ],
   "profile": {
     "name": "typicode"
