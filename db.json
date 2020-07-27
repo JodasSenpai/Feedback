@@ -1,10 +1,10 @@
+
+        
+
 {
   "posts": [
     {
-    "key": "PredictionQustions",
-    "question": [
-      {
-        "id": 1,
+      "id": 1,
         "parent_id": 0,
         "question": "How good was the prediction?",
         "answers": {
@@ -17,13 +17,10 @@
         "options_multiselect": false,
         "options_optional": false,
         "parent_condition": null
-      },
-    ]
-}
+    }
   ],
   "profile": {
     "name": "typicode"
   }
 }
-
 
