@@ -57,7 +57,7 @@
         "options_singleselect": false,
         "options_multiselect": true,
         "options_optional": false,
-        "parent_condition": 0
+        "parent_condition": [0]
       }
           
   ],
