@@ -18,11 +18,11 @@
         {
         "id": 2,
         "parent_id": 0,
-        "question": "Predictions was: ?",
+        "question": "Predictions was ____ in reality",
         "answers": {
-          "0": "More then in reality",
-          "1": "Less then in reality",
-          "2": "Just like in reality"
+          "0": "More then",
+          "1": "Less then",
+          "2": "Just like"
         },
         "type": "String",
         "options_singleselect": true,
