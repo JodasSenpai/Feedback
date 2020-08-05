@@ -18,6 +18,21 @@
         {
         "id": 2,
         "parent_id": 0,
+        "question": "Predictions was: ?",
+        "answers": {
+          "0": "More then in reality",
+          "1": "Less then in reality",
+          "2": "Just like in reality"
+        },
+        "type": "String",
+        "options_singleselect": true,
+        "options_multiselect": false,
+        "options_optional": false,
+        "parent_condition": null
+        },
+        {
+        "id": 3,
+        "parent_id": 0,
         "question": "Assess the prediction",
         "answers": {
           "0": 1,
@@ -31,7 +46,7 @@
         "parent_condition": null
         },
         {
-        "id": 3,
+        "id": 4,
         "parent_id": 0,
         "question": "Did you get allergic reaction?",
         "answers": {
@@ -45,8 +60,8 @@
         "parent_condition": null
         },
       {
-        "id": 4,
-        "parent_id": 3,
+        "id": 5,
+        "parent_id": 4,
         "question": "What pollen do you think could it be?",
         "answers": {
           "0": "Breza",
